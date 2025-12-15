@@ -32,7 +32,7 @@ dependencies:
 
       - snowflake-snowpark-python
 
-      - snowflake-connector-python
+      - streamlit
 
       - xgboost
 
