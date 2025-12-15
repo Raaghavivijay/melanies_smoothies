@@ -1,0 +1,43 @@
+name: snowflake-badge3
+
+channels:
+
+  - defaults
+
+  - conda-forge
+
+dependencies:
+
+  - python=3.8
+
+  - pip
+
+  - ipykernel
+
+  - jupyter
+
+  - pandas
+
+  - numpy
+
+  - scikit-learn
+
+  - matplotlib
+
+  - seaborn
+
+  - pyarrow
+
+  - pip:
+
+      - snowflake-snowpark-python
+
+      - snowflake-connector-python
+
+      - xgboost
+
+      - lightgbm
+
+      - joblib
+
+      - cachetools
