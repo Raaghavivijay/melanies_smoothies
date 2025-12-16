@@ -1,43 +1,7 @@
-name: snowflake-badge3
-
+name: app_environment
 channels:
-
-  - defaults
-
-  - conda-forge
-
+  - snowflake
 dependencies:
-
-  - python=3.8
-
-  - pip
-
-  - ipykernel
-
-  - jupyter
-
-  - pandas
-
-  - numpy
-
-  - scikit-learn
-
-  - matplotlib
-
-  - seaborn
-
-  - pyarrow
-
-  - pip:
-
-      - snowflake-snowpark-python
-
-      - streamlit
-
-      - xgboost
-
-      - lightgbm
-
-      - joblib
-
-      - cachetools
+  - python=3.11.*
+  - snowflake-snowpark-python
+  - streamlit
